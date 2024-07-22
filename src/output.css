@@ -754,10 +754,6 @@ video {
   width: max-content;
 }
 
-.w-\[200px\] {
-  width: 200px;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -1246,13 +1242,13 @@ body {
     width: 480px;
   }
 
+  .md\:w-auto {
+    width: auto;
+  }
+
   .md\:w-max {
     width: -moz-max-content;
     width: max-content;
-  }
-
-  .md\:w-auto {
-    width: auto;
   }
 
   .md\:grid-cols-2 {
