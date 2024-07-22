@@ -596,6 +596,10 @@ video {
   order: 9999;
 }
 
+.order-none {
+  order: 0;
+}
+
 .float-right {
   float: right;
 }
@@ -699,6 +703,27 @@ video {
 .h-min {
   height: -moz-min-content;
   height: min-content;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[650px\] {
+  height: 650px;
 }
 
 .max-h-20 {
